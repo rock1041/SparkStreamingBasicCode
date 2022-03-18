@@ -14,7 +14,7 @@ object SparkStreamDemo extends App{
                        .master("local[4]")
                        .config("spark.driver.allowMultipleContexts",true)
                        .getOrCreate()
-  val path = "/home/rakesh/IdeaProjects/SparkStreaming/src/main/resources"
+  val path = $your_local_path
 
   ///////spark core app////////
 /*
